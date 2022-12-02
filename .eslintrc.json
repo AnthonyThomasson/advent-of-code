@@ -1,0 +1,21 @@
+{
+    "ignorePatterns": [
+        "node_modules/*",
+        "dist/*",
+        "build/*",
+        "babel.config.js",
+        "jest.config.js"
+    ],
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": ["standard-with-typescript", "plugin:prettier/recommended"],
+    "overrides": [],
+    "parserOptions": {
+        "project": "./tsconfig.json",
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {}
+}
